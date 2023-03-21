@@ -74,15 +74,30 @@ li{
 }
 
 
-@media screen and (max-width: 200px){
-    .carousel-inner {
-        height: 100%;
-        object-fit: cover;
+@media screen and (min-width: 414px){
+    #carouselExample{
+        height: 45vh;
+        width: auto;
     }
-    .carousel-caption{
-        width: 25px;
+    .carousel-item{
+        height: 45vh;
+        width: auto;
     }
+    
 }
+
+@media (max-width: 1280px){
+    #carouselExample{
+        height: auto;
+        width: auto;
+    }
+    .carousel-item{
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+
 
 
 #submitBtn{
