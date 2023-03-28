@@ -103,3 +103,7 @@ li{
 #submitBtn{
     margin-top: 10px;
 }
+
+.card .text-center{
+    background-color: none;
+}

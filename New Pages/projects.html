@@ -13,71 +13,44 @@
 <body>
   <main>
     <div class="d-flex flex-column min-vh-100"> <!--wrapper-->
-            <nav class="container my-5">
-                <div class="text-end">
-                  <button type="button" onclick="linkedInBtn(this)" class="btn btn-primary" id="linkedIn" style="background-color: #55acee;"
-                  ><i class="fab fa-linkedin-in"></i>LinkedIn</button>
-              
-              <a class="btn btn-link" style="background-color: #66a5FF; color: white" href="contact.html">Email Me</a>
-
-              </div>
-                <h1 class="fw-bold text-center">Rae Watkins</h1>
-                
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="blog.html">Blog</a>
-                      </li>
-                    
-                  </ul>
-                 
-
-            </nav>
+      <nav class="container my-5">
+        <div class="text-end">
+          <button type="button" onclick="linkedInBtn(this)" class="btn btn-primary btn-sm" id="linkedIn" style="background-color: #55acee;">
+          <i class="fab fa-linkedin-in"></i>LinkedIn
+          </button>
+          <a class="btn btn-link btn-sm" style="background-color: #66a5FF; color: white" href="contact.html">Email Me</a>
+        </div>
+          <h1 class="fw-bold text-center">Rae Watkins</h1>
+          <ul class="nav nav-tabs justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>                  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/Whereivebeen.html">Where I've Been</a></li>
+                <li><a class="dropdown-item" href="subpages/whereiamnow.html">Where I Am Now</a></li>
+                <li><a class="dropdown-item" href="subpages/whereimgoing.html">Where I am Going</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/portfolio.html">Portfolio</a></li>
+                <li><a class="dropdown-item" href="subpages/sideprojects.html">Side Projects</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Blog</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/projectsnippets.html">Project Snippets</a></li>
+                <li><a class="dropdown-item" href="subpages/jeepadventures.html">Jeep Adventures</a></li>
+              </ul>
+            </li>
+          </ul>
+      </nav>
     
-            <div id="carouselExample" class="carousel slide container-fluid center" data-ride="carousel">
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="Images/webscraping.jpg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption d-none d-md-block c-text">
-                      <h2 class="fw-bold c-title">Web Scraping App</h2>
-                      <p class="c-info"> Ut enim ad minima veniam</p>
-                      <a href="#" class="c-link">More Info</a>
-                    </div>
-              </div>
-                  <div class="carousel-item">
-                    <img src="Images/webservers.jpg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption d-none d-md-block c-text">
-                      <h2 class="fw-bold c-title">Web Server Project</h2>
-                      <p class="c-info"> Ut enim ad minima veniam</p>
-                      <a href="#" class="c-link">More Info</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Images/API.jpg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption d-none d-md-block c-text">
-                      <h2 class="fw-bold c-title">API Project</h2>
-                      <p class="c-info"> Ut enim ad minima veniam</p>
-                      <a href="#" class="c-link">More Info</a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+           
               <h2 class="text-center c-project">My Projects!</h2>
             <div class="container-fluid text-center">
                 <h3>Automation Station</h3>

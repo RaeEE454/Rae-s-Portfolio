@@ -12,29 +12,42 @@
 </head>
 <body>
     <div class="d-flex flex-column min-vh-100"> <!--wrapper-->
-            <nav class="container my-5">
-              <div class="text-end">
-                <button type="button" onclick="linkedInBtn(this)" class="btn btn-primary" id="linkedIn" style="background-color: #55acee;">
-                <i class="fab fa-linkedin-in"></i>LinkedIn
-                </button>
-                <a class="btn btn-link" style="background-color: #66a5FF; color: white" href="contact.html">Email Me</a>
-              </div>
-                <h1 class="fw-bold text-center">Rae Watkins</h1>
-                <ul class="nav justify-content-center" id="nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                </ul>
-            </nav>
+      <nav class="container my-5">
+        <div class="text-end">
+          <button type="button" onclick="linkedInBtn(this)" class="btn btn-primary btn-sm" id="linkedIn" style="background-color: #55acee;">
+          <i class="fab fa-linkedin-in"></i>LinkedIn
+          </button>
+          <a class="btn btn-link btn-sm" style="background-color: #66a5FF; color: white" href="contact.html">Email Me</a>
+        </div>
+          <h1 class="fw-bold text-center">Rae Watkins</h1>
+          <ul class="nav nav-tabs justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>                  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/Whereivebeen.html">Where I've Been</a></li>
+                <li><a class="dropdown-item" href="subpages/whereiamnow.html">Where I Am Now</a></li>
+                <li><a class="dropdown-item" href="subpages/whereimgoing.html">Where I am Going</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/portfolio.html">Portfolio</a></li>
+                <li><a class="dropdown-item" href="subpages/sideprojects.html">Side Projects</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Blog</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="subpages/projectsnippets.html">Project Snippets</a></li>
+                <li><a class="dropdown-item" href="subpages/jeepadventures.html">Jeep Adventures</a></li>
+              </ul>
+            </li>
+          </ul>
+      </nav>
     
             <main class="container">
                 <form action="https://formsubmit.co/your@email.com" method="POST">
